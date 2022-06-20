@@ -14,7 +14,7 @@ Model status
 The current CellML model implementation runs in OpenCOR_.
 The CellML model parameters and equations must be updated regarding each specific simulations to reproduce the related results.
 In some cases, the results have been validated against the data extracted from the figures in the published `: Tong W-C, et al (2011)`.
-Using the default parameters provided in the paper, except figures 11, 12, 13.
+Using the default parameters provided in the paper, except figure 13.
 
 Model Summary
 ==============
@@ -75,7 +75,7 @@ In the Simulations folder, there are the CellML and SedMl files.
 Model Modifications
 ===================
 In the case of reproducibility and reusability, there are a couple of issues with the model simulations. Which, We point them as below:
-For figures 12 and 13, the stimulation protocol changes significantly.
+For figure 13, the stimulation protocol changes.
 Appendix S2 (supplement) contains a C code which includes the different stimulation details to reproduce figures 12 and 13A-C.
 
 Model Validations
